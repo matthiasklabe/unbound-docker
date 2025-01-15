@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   unbound:
+    image: frauhottelmann/daloradius-docker:1.2 
     container_name: unbound
     build:
       context: .
