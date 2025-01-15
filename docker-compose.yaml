@@ -19,5 +19,6 @@ services:
       - dnsnet1
 volumes:
   unbound1: {}
+  data1: {}
 networks:
   dnsnet1: {}
