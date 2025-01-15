@@ -13,7 +13,7 @@ services:
       - TZ=Europe/Berlin
     volumes:
       - unbound1:/opt/unbound/etc/unbound
-      - data1:/data
+      - data1:/opt/unbound/etc/data
     hostname: unbound1
     networks:
       - dnsnet1
