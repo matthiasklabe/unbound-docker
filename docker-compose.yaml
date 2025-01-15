@@ -12,7 +12,7 @@ services:
     environment:
       - TZ=Europe/Berlin
     volumes:
-      - unbound:/opt/unbound/etc/unbound
+      - unbound1:/opt/unbound/etc/unbound
     hostname: unbound1
     networks:
       - dnsnet1
